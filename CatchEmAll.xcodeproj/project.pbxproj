@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E753D85F27C09EFD006734D1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D85E27C09EFD006734D1 /* DetailViewController.swift */; };
+		E753D86127C0A37A006734D1 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D86027C0A37A006734D1 /* Creature.swift */; };
+		E753D86327C0A5B1006734D1 /* CreatureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E753D86227C0A5B1006734D1 /* CreatureDetail.swift */; };
 		E7E8E0C127BB678700AA02D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8E0C027BB678700AA02D1 /* AppDelegate.swift */; };
 		E7E8E0C327BB678700AA02D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8E0C227BB678700AA02D1 /* SceneDelegate.swift */; };
 		E7E8E0C527BB678700AA02D1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E8E0C427BB678700AA02D1 /* ListViewController.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E753D85E27C09EFD006734D1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E753D86027C0A37A006734D1 /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		E753D86227C0A5B1006734D1 /* CreatureDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetail.swift; sourceTree = "<group>"; };
 		E7E8E0BD27BB678700AA02D1 /* CatchEmAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchEmAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E8E0C027BB678700AA02D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7E8E0C227BB678700AA02D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,8 +66,11 @@
 			children = (
 				E7E8E0C027BB678700AA02D1 /* AppDelegate.swift */,
 				E7E8E0C227BB678700AA02D1 /* SceneDelegate.swift */,
+				E753D86027C0A37A006734D1 /* Creature.swift */,
 				E7E8E0D427BD4A8F00AA02D1 /* Creatures.swift */,
+				E753D86227C0A5B1006734D1 /* CreatureDetail.swift */,
 				E7E8E0C427BB678700AA02D1 /* ListViewController.swift */,
+				E753D85E27C09EFD006734D1 /* DetailViewController.swift */,
 				E7E8E0C627BB678700AA02D1 /* Main.storyboard */,
 				E7E8E0C927BB678800AA02D1 /* Assets.xcassets */,
 				E7E8E0CB27BB678800AA02D1 /* LaunchScreen.storyboard */,
@@ -143,6 +152,9 @@
 			files = (
 				E7E8E0D527BD4A8F00AA02D1 /* Creatures.swift in Sources */,
 				E7E8E0C527BB678700AA02D1 /* ListViewController.swift in Sources */,
+				E753D86127C0A37A006734D1 /* Creature.swift in Sources */,
+				E753D85F27C09EFD006734D1 /* DetailViewController.swift in Sources */,
+				E753D86327C0A5B1006734D1 /* CreatureDetail.swift in Sources */,
 				E7E8E0C127BB678700AA02D1 /* AppDelegate.swift in Sources */,
 				E7E8E0C327BB678700AA02D1 /* SceneDelegate.swift in Sources */,
 			);
